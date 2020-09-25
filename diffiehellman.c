@@ -4,6 +4,7 @@
 #include<stdint.h>
 #include<inttypes.h>
 #include<stdlib.h>
+#include<string.h>
  
 //funcao para retornar o valor de g^c mod p
 uint64_t powmod(uint64_t g, uint64_t b, uint64_t P)
